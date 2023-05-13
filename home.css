@@ -1,0 +1,95 @@
+.disp {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 90px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid blueviolet;
+}
+
+.classes {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.subject {
+    color: blueviolet;
+    text-transform: capitalize;
+}
+:is(.p, .a) {
+    border: none;
+    width: 90px;
+    font-size: 0.7rem;
+    height: 25px;
+    text-transform: uppercase;
+}
+.home-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+.attendance-percentage-value {
+    color: rgb(193, 155, 228);
+}
+
+.p {
+    background-color: greenyellow;
+}
+
+.a {
+    color: white;
+
+    background-color: rgb(238, 60, 60);
+}
+
+.am {
+    color: var(--blue);
+}
+
+.news {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 0.9rem;
+    background-color: var(--orange);
+}
+
+.home-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.U-D-icons {
+    height: 100%;
+    width: 30px;
+}
+:is(.delete, .undo) {
+    border-radius: 60%;
+    display: flex;
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.undo-delete {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.home-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
